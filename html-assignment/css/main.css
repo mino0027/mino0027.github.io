@@ -10,7 +10,7 @@ Class selector - add a class of site-title to the main heading of the site and s
 
 Id selector - add an id my-image to your image and select the id in CSS to add a box-shadow with 0 horizontal and vertical placement, 2px of the blur, 1px of the spread and black colour CHECK
 
-Replace the bullets from the list of hobbies with squares
+Replace the bullets from the list of hobbies with squares CHECK
 
 Using the nth-child selector - add a background to the odd list items in the hobby list
 
@@ -45,3 +45,7 @@ ul.square-hobbies{
     list-style: square;
 }
 /* site title, image shadow, squares added*/
+ul.square-hobbies :nth-child(odd){
+    background-color: blueviolet;
+}
+/* got odd color to work*/
