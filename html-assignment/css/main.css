@@ -41,7 +41,7 @@ header, footer {
 #my-image {
     box-shadow:0px 0px 2px 1px black
 }
-ul li{
+ul.square-hobbies{
     list-style: square;
 }
 /* site title, image shadow, squares added*/
