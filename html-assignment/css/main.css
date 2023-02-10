@@ -4,7 +4,7 @@ Add a CSS file to your website CHECK
 Inheritance - target the body tag to change the font family and increase the font size to 18px
 CHECK
 
-Select multiple elements - select both header and footer elements and add the same background colour
+Select multiple elements - select both header and footer elements and add the same background colour CHECK
 
 Class selector - add a class of site-title to the main heading of the site and select the class in CSS to change the colour of text of the heading
 
@@ -33,4 +33,8 @@ body {
 /* adjusted font fam/size*/
 header, footer {
     background-color: aquamarine;
+}
+/*validated, added header/footer color*/
+.site-title {
+    color: rgb(5, 99, 187);
 }
