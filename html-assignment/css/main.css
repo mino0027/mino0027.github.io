@@ -54,10 +54,8 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-}
-nav ul li a{
     border: ridge crimson;
-    background-color: burlywood;
+    background-color: burlywood
 }
 nav ul li a:hover{
     background-color: mediumvioletred;
