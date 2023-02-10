@@ -12,7 +12,7 @@ Id selector - add an id my-image to your image and select the id in CSS to add a
 
 Replace the bullets from the list of hobbies with squares CHECK
 
-Using the nth-child selector - add a background to the odd list items in the hobby list
+Using the nth-child selector - add a background to the odd list items in the hobby list CHECK
 
 Styling the Navigation
 
@@ -49,3 +49,10 @@ ul.square-hobbies :nth-child(odd){
     background-color: blueviolet;
 }
 /* got odd color to work*/
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+}
+/*styled nav*/
