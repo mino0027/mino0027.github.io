@@ -59,4 +59,7 @@ nav ul li a{
     border: ridge crimson;
     background-color: burlywood;
 }
+nav ul li a:hover{
+    background-color: mediumvioletred;
+}
 /*styled nav*/
