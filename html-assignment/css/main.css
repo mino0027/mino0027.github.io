@@ -16,9 +16,9 @@ Using the nth-child selector - add a background to the odd list items in the hob
 
 Styling the Navigation
 
-Remove the bullets from the unordered list in navigation (only if you have used the ul tag inside the nav tag) 
+Remove the bullets from the unordered list in navigation (only if you have used the ul tag inside the nav tag) CHECK
 
-Remove the underline from the links
+Remove the underline from the linkS CHECK
 
 Add a background and border to the links
 
@@ -54,5 +54,9 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
+}
+nav ul li a{
+    border: ridge crimson;
+    background-color: burlywood;
 }
 /*styled nav*/
