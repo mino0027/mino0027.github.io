@@ -42,3 +42,7 @@ table {
 	border-spacing: 0;
 }
 /*css reset above*/
+/*my code below*/
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
