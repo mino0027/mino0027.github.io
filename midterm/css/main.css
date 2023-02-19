@@ -52,10 +52,6 @@ body{
 	background-color:rgb(167, 240, 223);
 }
 
-.image img {
-	size: 50%;
-}
-
 .image h1{
 	z-index: 2;
 	color: white;
