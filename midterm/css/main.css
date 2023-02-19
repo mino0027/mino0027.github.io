@@ -43,6 +43,11 @@ table {
 }
 /*css reset above*/
 /*my code below*/
-h1 {
-	
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:rgb(167, 240, 223);
+}
+.image{
+	position: relative;
+	background-color:rgb(167, 240, 223);
 }
