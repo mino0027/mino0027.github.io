@@ -7,22 +7,22 @@
     <title>minosora midterm</title>
     <link href="css/main.css" rel="stylesheet">
 </head>
-<body>
+<body class="wrapper">
     <header class="image">
         <h1>Lone Starfish</h1>
         <img src="images/lone-starfish-wide.jpg" alt="lonely starfish on ocean floor">
     </header>
     <div>
         <nav>
-            <ul>
-                <li>HOME</li>
-                <li>STORY</li>
-                <li>CONTACT</li>
+            <ul class="navlist">
+                <li><a class="ho" href="index.html">HOME</a></li>
+                <li><a class="st" href=#story>STORY</a></li>
+                <li><a class="co" href="#contact">CONTACT</a></li>
             </ul>
         </nav>
     </div>
     <header>
-        <article>
+        <article id="story">
             <h2>Life of a Starfish</h2>
             <img src="images/lone-starfish.jpg" alt="close up of the lone starfish">
             <p>
@@ -30,10 +30,8 @@
             </p>
         </article>
     </header>
-    <br>
-    <section>
+    <section class="facts">
         <h3>Facts About Starfish</h3>
-        <br>
         <ul>
             <li>Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
             <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
@@ -41,28 +39,23 @@
             <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
         </ul>
     </section>
-    <br>
-        <h4>Contact to learn more</h4>
-        <br>
-        <form action="index.html" method="get">
+    <div>
+        <h4 id="contact">Contact to learn more</h4>
+        <form class="form" action="index.html" method="get">
             <div>
                 <label for="name">Your Name</label>
                 <input id="name" name="firstname" required>
             </div>
-            <br>
             <div>
                 <label for="email">Your Email</label>
                 <input id="email" name="email" required>
             </div>
-            <br>
             <div>
                 <label for="message">Your Message</label>
                 <textarea id="message" name="message"></textarea>
             </div>
-            <br>
             <div>
                 <h3>Would you like to visit the starfish?</h3>
-                <br>
                 <label for="yes">Yes</label>
                 <input type="radio" id="yes" name="visit" value="yes">
                 <label for="no">No</label>
@@ -70,12 +63,11 @@
                 <label for="maybe">Maybe</label>
                 <input type="radio" id="maybe" name="visit" value="maybe">
             </div>
-            <br>
             <div>
                 <button type="submit">Send</button>
             </div>
-        </form>
-    <br>
+            </form>
+        </div>
     <footer>
         &copy; Lone Starfish
     </footer>
