@@ -27,6 +27,8 @@ body {
 	color: ;
 }
 
+/* getting tid of link decoration*/
+
 nav li {
     width: inherit;
   }
@@ -37,6 +39,7 @@ nav li:not(:last-child) {
 /* adds vertical line to each nav li but contact*/
 .largeimg{
 	position: relative;
+	margin-left: -5%;
 	
 	z-index: 1;
 }
@@ -62,11 +65,12 @@ nav li:not(:last-child) {
 .form{
 	text-align: left;
 	border: black 1px solid;
-	padding: 2rem;
+	padding: 1rem;
 }
 
 .facts ul li{
 	text-align: left;
+	margin-left: -5% ;
 }
 
 h3{
@@ -88,6 +92,9 @@ h3{
 	width: 97.5%;
 
 }
+/* widths using % to reference to border size*/
+
+
 
 footer {
     margin-top:15px;
