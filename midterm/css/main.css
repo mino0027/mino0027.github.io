@@ -26,6 +26,7 @@ nav li {
 
 nav li:not(:last-child) {
     border-right: 1pt solid black;
+	padding-right: 5%;
 }
 /* adds vertical line to each nav li but contact*/
 .largeimg{
