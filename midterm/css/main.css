@@ -53,6 +53,7 @@ nav li:not(:last-child) {
 	display: inline;
 	float: inline-start;
 	width: 25%;
+	padding: 10px;
 }
 
 /* float allows me to position the starfish with the paragraph wrapped around*/
