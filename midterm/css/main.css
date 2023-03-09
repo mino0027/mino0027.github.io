@@ -89,7 +89,6 @@ footer {
 }
 
 .navlist nav ul li {
-	position: sticky;
 	font-weight: bold;
 	font-size: 19pt;
 	text-decoration: none;
