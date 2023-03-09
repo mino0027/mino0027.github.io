@@ -28,15 +28,6 @@ nav li:not(:last-child) {
 	padding-right: 5%;
 }
 /* adds vertical line to each nav li but contact*/
-.largeimg{
-	position: relative;
-	margin-left: -2.5%;
-	height: auto;
-	max-width: 105%;
-	z-index: 1;
-	margin-top: -4.5%;
-}
-/*zindex allows me to position elemnts in a "3D" space, allowing the title to cover the img*/
 
 .smallimg{
 	display: inline;
@@ -112,3 +103,13 @@ footer {
 }
 /* github is no longer recieving my commits???*?
 /* 6pm thursday, now github version has a completely different look to the header image where I have only been working inside the .navlist code above, but now the navlist looks closer to what it does on live server, however now the image does not work*/
+
+.largeimg{
+	position: relative;
+	margin-left: -2.5%;
+	height: auto;
+	max-width: 90%;
+	z-index: 1;
+	margin-top: -4.5%;
+}
+/*zindex allows me to position elemnts in a "3D" space, allowing the title to cover the img*/
