@@ -32,7 +32,7 @@ nav li:not(:last-child) {
 	position: relative;
 	margin-left: -2.1%;
 	height: auto;
-	max-width: 104.3%;
+	max-width: 105;
 	z-index: 1;
 	margin-top: -4%;
 }
@@ -97,7 +97,7 @@ footer {
     text-align: right;
 }
 
-.navlist ul li {
+.navlist nav ul li {
 	position: sticky;
 	font-weight: bold;
 	font-size: 20pt;
