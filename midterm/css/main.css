@@ -12,19 +12,7 @@ body {
     padding: 20px;
 }
 
-.navlist li{
-	position: sticky;
-	font-weight: bold;
-	font-size: 20pt;
-	text-decoration: none;
-	display: inline-block;
-	padding-left: 9.5%;
-	padding-right: 9%;
-	margin-top: -5%;
-	margin-left: -2%;
-	text-align: center;
-	margin-left:1%;
-}
+
 .navlist li a{
 	text-decoration: none;
 
@@ -107,4 +95,18 @@ footer {
     margin-top:15px;
     padding: 15px;
     text-align: right;
+}
+
+.navlist li{
+	position: sticky;
+	font-weight: bold;
+	font-size: 20pt;
+	text-decoration: none;
+	display: inline-block;
+	padding-left: 9.5%;
+	padding-right: 9%;
+	margin-top: -5%;
+	margin-left: -2%;
+	text-align: center;
+	margin-left:1%;
 }
