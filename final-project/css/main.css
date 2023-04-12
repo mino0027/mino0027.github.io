@@ -48,7 +48,22 @@ table {
 }
 
 /* all css reset above, the following below will be all my code */
+/* colours #c78c06, #ffe6ac, #222  */
 
+* {
+    box-sizing: border-box;
+}
+/*     *{} applies to all      */
 body {
     font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+    background-color: #222;
+}
+.logo {
+    background-color: #c78c06;
+}
+.home {
+    background-color: #c78c06;
 }
