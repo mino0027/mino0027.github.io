@@ -56,6 +56,7 @@ table {
     margin: auto;
     padding: auto;
     border: auto;
+    /* helps adjust what reset "breaks"*/
 }
 /*     *{} applies to all      */
 body {
@@ -65,34 +66,44 @@ body {
 }
 
 nav{
-    background-color: #222;
-}
-.logo {
     background-color: #c78c06;
 }
 .home {
-    background-color: #c78c06;
+    background-color: #222;
 }
 
-
-
 nav ul li a, .a1, .s1, .t1, .c1{
-    color:#c78c06;
     list-style: none;
     text-decoration: none;
-    
 }
 
 nav ul li a, .home {
     color: #222;
     text-decoration: none;
 }
+
 /* targets just the home to fit the color theme */
 
 nav{
     text-align: center;
 }
 
-h1{
-    text-align: left;
+.logo {
+    background-color: #c78c06;
+}
+
+nav img {
+    display: flex;
+    width: 20%;
+}
+
+nav ul li {
+    background-color: #222;
+}
+.a1, .s1, .t1, .c1 {
+    color:#c78c06;
+}
+.home {
+    color: #222;
+    background-color: #c78c06;
 }
