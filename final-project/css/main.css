@@ -53,9 +53,7 @@ table {
 * {
     box-sizing: border-box;
     width: 100%;
-    margin: auto;
-    padding: auto;
-    border: auto;
+    margin: auto%;
     /* helps adjust what reset "breaks"*/
 }
 /*     *{} applies to all      */
@@ -78,10 +76,12 @@ nav ul li a, .home {
 
 nav{
     text-align: center;
+    background-color: #222;
 }
 
 .logo {
     background-color: #c78c06;
+    margin-top: 5%;
 }
 
 nav img {
@@ -103,12 +103,15 @@ nav ul li {
 /* its messy but took out redundant code, fixing colouring of the nav menu and using display block to allow Home to take up the full space with colour*/
 
 #search{
-    width: 80%;
+    width: 70%;
     text-align: left;
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
 }
 
 .mg {
-    text-align: right;
     display: flex;
-    
+    width: min-content;
+    flex-wrap: nowrap;
 }
