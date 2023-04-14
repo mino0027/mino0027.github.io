@@ -65,15 +65,7 @@ body {
     width: 90%;
 }
 
-nav{
-    background-color: #c78c06;
-}
-.home {
-    background-color: #222;
-}
-
 nav ul li a, .a1, .s1, .t1, .c1{
-    list-style: none;
     text-decoration: none;
 }
 
@@ -106,4 +98,7 @@ nav ul li {
 .home {
     color: #222;
     background-color: #c78c06;
+    display: block;
 }
+
+/* its messy but took out redundant code, fixing colouring of the nav menu and using display block to allow Home to take up the full space with colour*/
