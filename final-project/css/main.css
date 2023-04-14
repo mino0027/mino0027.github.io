@@ -53,14 +53,17 @@ table {
 * {
     box-sizing: border-box;
     width: 100%;
+    
     margin: auto;
     /* helps adjust what reset "breaks"*/
 }
 /*     *{} applies to all      */
-.wrapper {
+body {
     font-family: 'Open Sans', sans-serif;
+}
+.wrapper {
     margin: auto;
-    width: 95%;
+    width: 90%;
 }
 
 nav ul li a, .a1, .s1, .t1, .c1{
@@ -161,8 +164,28 @@ button {
     width: 35%;
 }
 
-#
+#about {
+    background-color: #ffe6ac;
+    padding-bottom: 1rem;
+}
 
+#about img {
+    width: 95%;
+    margin: 1rem;
+    justify-content: center;
+}
+ 
+h3 {
+    font-weight: 800;
+}
+
+#about p{ 
+    line-height: 1.5rem;
+}
+
+#service img{
+    
+}
 
 
 
