@@ -118,19 +118,24 @@ nav ul li:nth-child(5){
 
 
 #search{
-    width: 90%;
+    width: 100%;
     text-align: left;
     display: flex;
     justify-content: center;
     
 }
 .mg {
-    display: flex;
     width: min-content;
-    
+    color: #c78c06;
+    background-color: #222;
+    border-color: #c78c06;
 }
+
+
 form {
     background-color: #222;
+    display: flex;
+    padding-bottom: 1rem;
 }
 nav {
     padding-left: 2%;
