@@ -145,3 +145,35 @@ nav {
     margin-top: -3%;
 }
 
+.banner {
+    position: absolute;
+    width: 90%;
+    z-index: 1;
+}
+
+header h2 {
+    z-index: 2;
+    position: absolute;
+    font-size: 50pt;
+    line-height: 6rem; /* line spacing */
+    font-weight: 800;/* allows access to the heavier font style */
+    color: white;
+    margin-top: 8%; /* for position */
+    padding-top: 7%;
+    padding-left: 2%; /* for position */
+    width: 90%;
+    background-color: #22222277;
+    /* creates the near identical welcome */
+}
+
+header p {
+    z-index: 2;
+    position: absolute;
+    font-size: 12pt;
+    color: white;
+    margin-top: 40.3%;
+    padding-left: 2%;
+    width: 90%;
+    padding-right: 15%;
+    background-color: #22222277;
+}
