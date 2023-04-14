@@ -76,7 +76,7 @@ nav ul li a, .home {
 
 nav{
     text-align: center;
-    background-color: #222;
+    background-color: #c78c06;
 }
 
 .logo {
@@ -99,19 +99,43 @@ nav ul li {
     color: #222;
     background-color: #c78c06;
     display: block;
+    padding-bottom: 1rem;
 }
 /* its messy but took out redundant code, fixing colouring of the nav menu and using display block to allow Home to take up the full space with colour*/
 
+nav ul li:nth-child(2){
+    padding: 1rem;
+}
+nav ul li:nth-child(3){
+    padding: 1rem;
+}
+nav ul li:nth-child(4){
+    padding: 1rem;
+}
+nav ul li:nth-child(5){
+    padding: 1rem;
+}
+
+
 #search{
-    width: 70%;
+    width: 90%;
     text-align: left;
     display: flex;
     justify-content: center;
-    margin-left: 5%;
+    
 }
-
 .mg {
     display: flex;
     width: min-content;
-    flex-wrap: nowrap;
+    
+}
+form {
+    background-color: #222;
+}
+nav {
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #222;
+    padding-top: .1px;
+    margin-top: -3%;
 }
