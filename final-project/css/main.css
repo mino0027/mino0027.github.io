@@ -57,10 +57,10 @@ table {
     /* helps adjust what reset "breaks"*/
 }
 /*     *{} applies to all      */
-body {
+.wrapper {
     font-family: 'Open Sans', sans-serif;
     margin: auto;
-    width: 90%;
+    width: 95%;
 }
 
 nav ul li a, .a1, .s1, .t1, .c1{
@@ -145,51 +145,27 @@ nav {
     margin-top: -3%;
 }
 
-.banner {
-    position: absolute;
-    width: 90%;
-    z-index: 1;
+.welcome{
+    background-image: url(/images/main-banner.jpg);
+    background-size: cover;
 }
 
 header h2 {
-    z-index: 2;
-    position: absolute;
-    font-size: 50pt;
-    line-height: 6rem; /* line spacing */
-    font-weight: 800;/* allows access to the heavier font style */
+    font-weight: 900;
+    font-size: 45pt;
     color: white;
-    margin-top: 8%; /* for position */
-    padding-top: 7%;
-    padding-left: 2%; /* for position */
-    width: 90%;
-    background-color: #22222277;
-    /* creates the near identical welcome */
+    padding-top: 8rem;
 }
 
-header p {
-    z-index: 2;
-    position: absolute;
-    font-size: 12pt;
-    color: white;
-    margin-top: 40.3%;
-    padding-left: 2%;
-    width: 90%;
-    padding-right: 15%;
-    background-color: #22222277;
-    padding-bottom: 15%;
+button {
+    width: 35%;
 }
 
-header button {
-    z-index: 2;
-    position: absolute;
-    margin-top: 50%;
-    width: 32%;
-    height: 10%;
-}
+#
 
-button{
-    display: flex;
 
-}
+
+
+
 
 
