@@ -176,4 +176,20 @@ header p {
     width: 90%;
     padding-right: 15%;
     background-color: #22222277;
+    padding-bottom: 15%;
 }
+
+header button {
+    z-index: 2;
+    position: absolute;
+    margin-top: 50%;
+    width: 32%;
+    height: 10%;
+}
+
+button{
+    display: flex;
+
+}
+
+
