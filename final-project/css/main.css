@@ -177,18 +177,37 @@ button {
  
 h3 {
     font-weight: 800;
+    font-size: 3rem;
+    line-height: 8rem;
 }
 
 #about p{ 
     line-height: 1.5rem;
 }
 
-#service img{
-    
+h4 {
+    font-weight: 800;
+    font-size: 2rem;
 }
 
+#service {
+    background-color: #ffe6ac;
+}
 
+#service h3 {
+    background-color: white;
+}
+.white{
+    background-color: white;
+    padding: .2rem;
+    border-color: white;
+    list-style: none;
+    text-decoration: none;
+}
 
+#print {
+    padding: 4rem;
+}
 
 
 
