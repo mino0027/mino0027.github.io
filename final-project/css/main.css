@@ -489,8 +489,9 @@ h4 {
 
 table {
     border-collapse: collapse;
-    width: 760px;
+    width: 750px;
     margin: 0 auto;
+    margin-left: 1rem;
     border: solid 1px;
     border-color: black;
   }
@@ -513,14 +514,25 @@ table {
   }
     
 .hours h4 {
-    line-height: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     font-weight: 800;
     font-size: 2rem;
+    margin-left: 1rem;
 }
 
+#location h4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 800;
+    font-size: 2rem;
+    margin-left: 1rem;
+
+}
 iframe {
     width: 750px;
     height: 500px;
+    margin-left: 1rem;
 }
 
 footer {
@@ -528,5 +540,10 @@ footer {
     color: #c78c06;
     text-align: left;
     padding: 1rem;
+    margin-right: -1rem;    
     line-height: 2rem;
+}
+
+footer p a {
+    color: #c78c06;
 }
