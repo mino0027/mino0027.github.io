@@ -192,6 +192,7 @@ header h2 {
 
 #about img {
     padding-top: 1rem;
+    padding-left: 1rem;
     width: 740px;
     justify-content: center;
 }
@@ -200,6 +201,7 @@ h3 {
     font-weight: 800;
     font-size: 3rem;
     line-height: 8rem;
+    margin-left: 1rem;
 }
 
 #about p{ 
@@ -211,8 +213,8 @@ h4 {
     font-size: 2rem;
 }
 
-#service {
-    background-color:#ffe6ac;
+#service .wrapper {
+    background-color: #ffe6ac;
 }
 
 #service img {
@@ -227,6 +229,7 @@ h4 {
     background-color: white;
     padding: .2rem;
     border-color: white;
+    color: white;
     list-style: none;
     text-decoration: none;
 }
@@ -246,29 +249,31 @@ h4 {
 
 
 .digital img {
-    width: 752px;
+    width: 749px;
 }
 .marketting img {
-    width: 752px;
+    width: 749px;
 }
 .web img {
-    width: 752px;
+    width: 749px;
 }
 .video img {
-    width: 752px;
+    width: 749px;
 }
 .print img {
-    width: 752px;
+    width: 749px;
 }
 
 
-.digital, .print, .web, .video, .marketting {
+.digital, .print, .web, .video, .marketting  .wrapper {
     padding-bottom: .7rem;
+    
 }
 
 .print h4 {
 
     padding-top: 1.5rem;
+    padding-left: .5rem;
     padding-bottom: 1.5rem;
     font-weight: 800;
     font-size: 3rem;
@@ -277,6 +282,8 @@ h4 {
 .web h4 {
 
     padding-top: 1.5rem;
+    padding-left: .5rem;
+
     padding-bottom: 1.5rem;
     font-weight: 800;
     font-size: 3rem;
@@ -285,12 +292,15 @@ h4 {
 .video h4 {
 
     padding-top: 1.5rem;
+    padding-left: .5rem;
+
     padding-bottom: 1.5rem;
     font-weight: 800;
     font-size: 3rem;
  /* fixing services h4s */
 }
 .marketting h4 {
+    padding-left: .5rem;
 
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -299,6 +309,7 @@ h4 {
  /* fixing services h4s */
 }
 .digital h4 {
+    padding-left: .5rem;
 
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -308,34 +319,45 @@ h4 {
 }
 
 .print p {
+    padding-left: .5rem;
 
     line-height: 1.5rem;
     padding-bottom: .5rem;
  /* fixing services texts */
 }
 .web p {
+    padding-left: .5rem;
 
     line-height: 1.5rem;
     padding-bottom: .5rem;
  /* fixing services texts */
 }
 .video p {
+    padding-left: .5rem;
 
     line-height: 1.5rem;
     padding-bottom: .5rem;
  /* fixing services texts */
 }
 .digital p {
+    padding-left: .5rem;
 
     line-height: 1.5rem;
     padding-bottom: .5rem;
  /* fixing services texts */
 }
 .marketting p {
+    padding-left: .5rem;
 
     line-height: 1.5rem;
     padding-bottom: .5rem;
  /* fixing services texts */
+}
+#service .service-button {
+    background-color: #222;
+    color: white;
+    border: none;
+    margin-left: .5rem;
 }
 
 .vision{
