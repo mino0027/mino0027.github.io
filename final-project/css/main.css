@@ -223,6 +223,11 @@ h4 {
     background-color: #ffe6ac;
 }
 
+#service img {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
 #service h3 {
     background-color: white;
 }
@@ -262,5 +267,102 @@ h4 {
     font-size: 2rem;
     transform: translate(-11%, -90%);
 } /* repeat of earlier button code with some minor changes */
+.markplans {
+    position: relative;
+    width: 27%;
+    padding-top: 4rem;
+    background-color: #222;
+    font-weight: 450;
+    font-size: 1.2rem;
+    border: none;
+}
+.markplans::before {
+    content: "Marketting Plans";
+    color: white;
+    position: absolute;
+    top: 43%;
+    left: 10%;
+}
+.markplans i {
+    text-align: right;
+    color: white;
+    font-size: 2rem;
+    transform: translate(-8%, -80%);
+} /* repeat of earlier button code with some minor changes */
+.vidplans {
+    position: relative;
+    width: 27%;
+    padding-top: 4rem;
+    background-color: #222;
+    font-weight: 450;
+    font-size: 1.2rem;
+    border: none;
+}
+.vidplans::before {
+    content: "Video Plans";
+    color: white;
+    position: absolute;
+    top: 43%;
+    left: 15%;
+}
+.vidplans i {
+    text-align: right;
+    color: white;
+    font-size: 2rem;
+    transform: translate(-20%, -80%);
+} /* repeat of earlier button code with some minor changes */
+.webplans {
+    position: relative;
+    width: 27%;
+    padding-top: 4rem;
+    background-color: #222;
+    font-weight: 450;
+    font-size: 1.2rem;
+    border: none;
+}
+.webplans::before {
+    content: "Web Plans";
+    color: white;
+    position: absolute;
+    top: 43%;
+    left: 15%;
+}
+.webplans i {
+    text-align: right;
+    color: white;
+    font-size: 2rem;
+    transform: translate(-20%, -80%);
+} /* repeat of earlier button code with some minor changes */
+.priplans {
+    position: relative;
+    width: 27%;
+    padding-top: 4rem;
+    background-color: #222;
+    font-weight: 450;
+    font-size: 1.2rem;
+    border: none;
+}
+.priplans::before {
+    content: "Print Plans";
+    color: white;
+    position: absolute;
+    top: 43%;
+    left: 15%;
+}
+.priplans i {
+    text-align: right;
+    color: white;
+    font-size: 2rem;
+    transform: translate(-20%, -80%);
+} /* repeat of earlier button code with some minor changes */
 
 
+
+.white, hr {
+    border: none;
+}
+
+.marketting, .digital, .web, .video, .print {
+    background-color: #ffe6ac;
+    
+}
