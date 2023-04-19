@@ -53,7 +53,6 @@ table {
 * {
     box-sizing: border-box;
     width: 100%;
-    
     margin: auto;
     /* helps adjust what reset "breaks"*/
 }
@@ -160,29 +159,37 @@ header h2 {
     font-weight: 900;
     font-size: 45pt;
     color: white;
-    padding-top: 8rem;
+    
 }
-
+/* button code */
 .connect {
-    position: relative;
-    width: 33%;
+    position: relative; /* sets position of button*/
+    width: 33%; /* sets size on screen */
     padding-top: 4rem;
     background-color: #c78c06;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    border: none;
 }
 .connect::before {
     content: "Connect with us";
-    position: absolute;
+    position: absolute; /* keeps text within */
     top: 49%;
     left: 40%;
-    transform: translate(-49%, -40%);
+    transform: translate(-49%, -40%); /* moving positioning */
 }
 .connect i {
     text-align: right;
     padding-right: 1rem;
     font-size: 2rem;
-    transform: translate(-20%, -90%);
+    transform: translate(-11%, -90%);
+}
+/* button code */
+.box, h2 p button{
+    background-color: #2222226f;
+    top: 20rem;
+    margin-left: -6%;
+    padding-left: 5%;
 }
 
 
@@ -231,5 +238,29 @@ h4 {
     padding: 4rem;
 }
 
+.digplans {
+    position: relative;
+    width: 27%;
+    padding-top: 4rem;
+    background-color: #222;
+    font-weight: 500;
+    font-size: 1.2rem;
+    border: none;
+}
+.digplans::before {
+    content: "Digital Plans";
+    color: white;
+    position: absolute;
+    top: 49%;
+    left: 40%;
+    transform: translate(-49%, -40%);
+}
+.digplans i {
+    text-align: right;
+    color: white;
+    padding-right: 1rem;
+    font-size: 2rem;
+    transform: translate(-11%, -90%);
+} /* repeat of earlier button code with some minor changes */
 
 
