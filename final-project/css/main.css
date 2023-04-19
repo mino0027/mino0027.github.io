@@ -55,7 +55,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 .wrapper {
-    margin-left: .5rem;
+    margin-left: 1rem;
     max-width: 1200px;
     
 }
@@ -65,7 +65,8 @@ nav ul li a, .a1, .s1, .t1, .c1{
 }
 
 nav {
-    padding-right: 1rem;
+    padding-right: 1.5rem;
+    padding-left: 4rem;
 }
 
 nav ul li a, .home {
@@ -78,6 +79,7 @@ nav ul li a, .home {
 nav{
     text-align: center;
     background-color: #c78c06;
+    
     
 }
 
@@ -145,8 +147,8 @@ form {
     padding-bottom: 1rem;
 }
 nav {
-    padding-left: 2%;
-    
+    padding-left: 2rem;
+    margin-right: -1rem;
     background-color: #222;
     padding-top: .1px;
     margin-top: -3%;
