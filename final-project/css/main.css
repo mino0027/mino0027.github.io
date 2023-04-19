@@ -55,8 +55,8 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 .wrapper {
-    margin: auto;
-    width: 90%;
+    margin-left: .5rem;
+    max-width: 1200px;
 }
 
 nav ul li a, .a1, .s1, .t1, .c1{
@@ -73,7 +73,6 @@ nav ul li a, .home {
 nav{
     text-align: center;
     background-color: #c78c06;
-    width: 98%;
 }
 
 .logo {
@@ -147,15 +146,12 @@ nav {
 }
 
 .welcome{
-    background-image: url(/images/main-banner.jpg);
+    background-image: url(../images/main-banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.welcome {
-    width: 102%;
-}
 
 header h2 {
     font-weight: 800;
@@ -165,28 +161,13 @@ header h2 {
 }
 /* button code */
 .connect {
-    position: relative; /* sets position of button*/
-    width: 33%; /* sets size on screen */
-    padding-top: 4rem;
+    padding: 1rem;
     background-color: #c78c06;
-    font-weight: 500;
-    font-size: 1.2rem;
-    border: none;
+    color: black;
 }
-.connect::before {
-    content: "Connect with us";
-    position: absolute; /* keeps text within */
-    top: 49%;
-    left: 40%;
-    transform: translate(-49%, -40%); /* moving positioning */
-}
-.connect i {
-    text-align: right;
-    padding-right: 1rem;
-    font-size: 2rem;
-    transform: translate(5rem, -90%);
-}
-/* button code */
+
+
+
 .box, h2 p button{
     background-color: #2222226f;
     top: 20rem;
@@ -194,9 +175,6 @@ header h2 {
     padding-left: 5%;
 }
 
-#about {
-    width: 102%;
-}
 #about {
     background-color: #ffe6ac;
     padding-bottom: 1rem;
@@ -226,7 +204,6 @@ h4 {
 
 #service {
     background-color: white;
-    width: 102%;
 }
 
 
@@ -242,127 +219,16 @@ h4 {
 }
 
 #service h3 {
-    margin-left: 1%;
 }
 
-.digplans {
-    position: relative;
-    width: 27%;
-    padding-top: 4rem;
-    background-color: #222;
-    font-weight: 500;
-    margin-left: -1.5rem;
-    font-size: 1.2rem;
-    border: none;
-}
-.digplans::before {
-    content: "Digital Plans";
+.service-button {
+    padding: 1rem;
+    background-color: #c78c06;
     color: white;
-    position: absolute;
-    top: 49%;
-    left: 40%;
-    transform: translate(-49%, -40%);
 }
-.digplans i {
-    text-align: right;
-    color: white;
-    padding-right: 1rem;
-    font-size: 2rem;
-    transform: translate(4rem, -90%);
-} /* repeat of earlier button code with some minor changes */
-.markplans {
-    position: relative;
-    width: 27%;
-    padding-top: 4rem;
-    background-color: #222;
-    font-weight: 450;
-    margin-left: -1.5rem;
-    font-size: 1.2rem;
-    border: none;
-}
-.markplans::before {
-    content: "Marketting Plans";
-    color: white;
-    position: absolute;
-    top: 43%;
-    left: 5%;
-}
-.markplans i {
-    text-align: right;
-    color: white;
-    font-size: 2rem;
-    transform: translate(4.5rem, -80%);
-} /* repeat of earlier button code with some minor changes */
-.vidplans {
-    position: relative;
-    width: 27%;
-    padding-top: 4rem;
-    background-color: #222;
-    font-weight: 450;
-    margin-left: -1.5rem;
-    font-size: 1.2rem;
-    border: none;
-}
-.vidplans::before {
-    content: "Video Plans";
-    color: white;
-    position: absolute;
-    top: 43%;
-    left: 15%;
-}
-.vidplans i {
-    text-align: right;
-    color: white;
-    font-size: 2rem;
-    transform: translate(3.5rem, -80%);
-} /* repeat of earlier button code with some minor changes */
-.webplans {
-    position: relative;
-    width: 27%;
-    padding-top: 4rem;
-    background-color: #222;
-    font-weight: 450;
-    margin-left: -1.5rem;
-    font-size: 1.2rem;
-    border: none;
-}
-.webplans::before {
-    content: "Web Plans";
-    color: white;
-    position: absolute;
-    top: 43%;
-    left: 15%;
-}
-.webplans i {
-    text-align: right;
-    color: white;
-    font-size: 2rem;
-    transform: translate(3rem, -80%);
-} /* repeat of earlier button code with some minor changes */
-.priplans {
-    position: relative;
-    width: 27%;
-    padding-top: 4rem;
-    background-color: #222;
-    font-weight: 450;
-    margin-left: -1.5rem;
-    font-size: 1.2rem;
-    border: none;
-}
-.priplans::before {
-    content: "Print Plans";
-    color: white;
-    position: absolute;
-    top: 43%;
-    left: 15%;
-}
-.priplans i {
-    text-align: right;
-    color: white;
-    font-size: 2rem;
-    left: 40%;
-    transform: translate(3rem, -80%);
-} /* repeat of earlier button code with some minor changes */
+
+
+
 
 
 
@@ -372,8 +238,7 @@ h4 {
 
 .marketting, .digital, .web, .video, .print {
     background-color: #ffe6ac;
-    margin-left: 1%;
-    margin-right: 1%;    
+        
 }
 .digital img {
     width: 100%;
@@ -397,7 +262,7 @@ h4 {
 }
 
 .print h4 {
-    margin-left: -1.5rem;
+
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     font-weight: 800;
@@ -405,7 +270,7 @@ h4 {
  /* fixing services h4s */
 }
 .web h4 {
-    margin-left: -1.5rem;
+
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     font-weight: 800;
@@ -413,7 +278,7 @@ h4 {
  /* fixing services h4s */
 }
 .video h4 {
-    margin-left: -1.5rem;
+
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     font-weight: 800;
@@ -421,7 +286,7 @@ h4 {
  /* fixing services h4s */
 }
 .marketting h4 {
-    margin-left: -1.5rem;
+
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     font-weight: 800;
@@ -429,7 +294,7 @@ h4 {
  /* fixing services h4s */
 }
 .digital h4 {
-    margin-left: -1.5rem;
+
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     font-weight: 800;
@@ -438,69 +303,43 @@ h4 {
 }
 
 .print p {
-    margin-left: -1.5rem;
+
     line-height: 1.5rem;
     padding-bottom: .5rem;
  /* fixing services texts */
 }
 .web p {
-    margin-left: -1.5rem;
+
     line-height: 1.5rem;
     padding-bottom: .5rem;
  /* fixing services texts */
 }
 .video p {
-    margin-left: -1.5rem;
+
     line-height: 1.5rem;
     padding-bottom: .5rem;
  /* fixing services texts */
 }
 .digital p {
-    margin-left: -1.5rem;
+
     line-height: 1.5rem;
     padding-bottom: .5rem;
  /* fixing services texts */
 }
 .marketting p {
-    margin-left: -1.5rem;
+
     line-height: 1.5rem;
     padding-bottom: .5rem;
  /* fixing services texts */
 }
 
 .vision{
-    background-image: url(/images/vision.jpg);
+    background-image: url(../images/vision.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: 102%;
     height: 100%;
 }
-.visionbut {
-    position: relative;
-    width: 27%;
-    padding-top: 4rem;
-    background-color: #060331;
-    font-weight: 450;
-    font-size: 1.2rem;
-    margin-left: -1rem;
-    margin-bottom: 1rem;
-    border: solid;
-    border-color: #c78c06;
-}
-.visionbut::before {
-    content: "Learn More";
-    color: white;
-    position: absolute;
-    top: 43%;
-    left: 15%;
-}
-.visionbut i {
-    text-align: right;
-    color: white;
-    font-size: 2rem;
-    transform: translate(3rem, -1.5rem);
-} /* repeat of earlier button code with some minor changes */
 
 .vision h4 {
     font-size: 2.5rem;
@@ -509,13 +348,13 @@ h4 {
     padding-top: 2rem;
     padding-bottom: 2rem;
     text-align: left;
-    margin-left: -1rem;
 }
 
 .vision p {
     color: white;
     line-height: 1.5rem;
-    margin-left: -1rem;
+
+    padding-bottom: 1rem;
 }
 
 
@@ -563,4 +402,43 @@ h4 {
     border-color: #c78c06;
     margin-left: 1rem;
     margin-right: 1rem;
+}
+
+#contact form {
+    background-color: white;
+    display: block;
+    padding-left: 1rem;
+}
+
+#fullname, #email, #comments {
+    display: block;
+    width: 100%;
+}
+#contact h4 {
+    padding-top: 3rem;
+    font-size: 2rem;
+}
+#contact h4, h5 {
+    font-weight: 800;
+    line-height: 3rem;
+    font-weight: bolder;
+}
+#contact h5 {
+    font-size: 1.5rem;
+}
+
+#contact #comments {
+    height: 10rem;
+}
+
+#contact form label {
+    line-height: 2rem;
+}
+
+#contact form button {
+    margin-top: 1rem;
+    color: #c78c06;
+    background-color: #222;
+    border: solid 1px;
+    border-color: #c78c06;
 }
