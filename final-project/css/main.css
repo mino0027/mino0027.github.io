@@ -220,13 +220,10 @@ h4 {
 }
 
 #service {
-    background-color: #ffe6ac;
+    background-color: #white;
 }
 
-#service img {
-    margin-left: 1%;
-    margin-right: 1%;
-}
+
 
 #service h3 {
     background-color: white;
@@ -362,7 +359,18 @@ h4 {
     border: none;
 }
 
-.marketting, .digital, .web, .video, .print {
+.marketting, .digital, .web, .video, .print, .serviceimg {
     background-color: #ffe6ac;
     
+    padding-bottom: 7.5px;
+    margin-left: 1%;
+    margin-right: 1%;
+    
+    
+}
+
+.vision {
+    margin: 0;
+    width: 100%;
+    height: 100%;
 }
