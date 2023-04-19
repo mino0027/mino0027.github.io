@@ -158,7 +158,7 @@ nav {
 }
 
 header h2 {
-    font-weight: 900;
+    font-weight: 800;
     font-size: 45pt;
     color: white;
     
@@ -210,7 +210,7 @@ header h2 {
 }
  
 h3 {
-    font-weight: 900;
+    font-weight: 800;
     font-size: 3rem;
     line-height: 8rem;
 }
@@ -504,7 +504,7 @@ h4 {
 
 .vision h4 {
     font-size: 2.5rem;
-    font-weight: 900;
+    font-weight: 800;
     color: white;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -518,3 +518,49 @@ h4 {
     margin-left: -1rem;
 }
 
+
+#team {
+    margin-left: 1%;
+    width: 100%;
+}
+.teamcolor {
+    background-color: #ffe6ac;
+}
+
+#team img {
+    width: 100%;
+}
+
+#team hr {
+    padding: 0;
+}
+
+#team header h4 { /* being more specific to target different h4s*/
+    font-size: 3rem;
+    font-weight: 800;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+#team div h4 { /* being more specific to target different h4s*/
+    font-size: 2rem;
+    font-weight: 800;
+    padding-left: 1rem;
+    line-height: 4rem;
+}
+#team h5 {
+    font-size: 1rem;
+    font-weight: 800;
+    padding-left: 1rem;
+}
+#team p {
+    padding-left: 1rem;
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+#team div hr {
+    border: solid 1px;
+    border-color: #c78c06;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
