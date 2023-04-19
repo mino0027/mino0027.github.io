@@ -170,9 +170,11 @@ header h2 {
 }
 /* button code */
 .connect {
-    padding: 1rem;
+    padding: 2rem;
+    font-size: 1rem;
     background-color: #c78c06;
     color: black;
+    border: none;
 }
 
 
@@ -277,9 +279,6 @@ h4 {
 }
 
 
-.white, hr {
-    border: none;
-}
 
 
 .digital img {
@@ -408,13 +407,36 @@ h4 {
 #team div hr {
     border: solid 1px;
     border-color: #c78c06;
-    margin-left: 1rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
 }
 
 #team #white {
     border: solid 1px;
     border-color: white;
 
+}
+
+#team header h4{
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 5rem;
+}
+
+.teamcolor h4 {
+    font-weight: 800;
+    line-height: 3rem;
+}
+.teamcolor p {
+    font-weight: 200;
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+
+#team h5 {
+    font-weight: 800;
+    font-size: 1rem;
 }
 
 
@@ -432,7 +454,7 @@ h4 {
     padding-top: 3rem;
     font-size: 2rem;
 }
-#contact h4, h5 {
+#contact h4 h5 {
     font-weight: 800;
     line-height: 3rem;
     font-weight: bolder;
@@ -455,4 +477,12 @@ h4 {
     background-color: #222;
     border: solid 1px;
     border-color: #c78c06;
+}
+
+#service .white{
+    background-color: white;
+    margin: 0;    
+    border-color: white;
+    color: white;
+    border: none;
 }
