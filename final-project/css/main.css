@@ -73,6 +73,7 @@ nav ul li a, .home {
 nav{
     text-align: center;
     background-color: #c78c06;
+    margin-right: -1rem;
 }
 
 .logo {
@@ -150,6 +151,7 @@ nav {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    margin-right: -1rem;
 }
 
 
@@ -178,7 +180,7 @@ header h2 {
 #about {
     background-color: #ffe6ac;
     padding-bottom: 1rem;
-    border-right: 5rem;
+    margin-right: -1rem;
 }
 
 #about img {
@@ -218,8 +220,6 @@ h4 {
     text-decoration: none;
 }
 
-#service h3 {
-}
 
 .service-button {
     padding: 1rem;
@@ -241,19 +241,19 @@ h4 {
         
 }
 .digital img {
-    width: 100%;
+    width: 752px;
 }
 .marketting img {
-    width: 100%;
+    width: 752px;
 }
 .web img {
-    width: 100%;
+    width: 752px;
 }
 .video img {
-    width: 100%;
+    width: 752px;
 }
 .print img {
-    width: 100%;
+    width: 752px;
 }
 
 
@@ -358,44 +358,10 @@ h4 {
 }
 
 
-#team {
-    margin-left: 1%;
-    width: 100%;
-}
-.teamcolor {
-    background-color: #ffe6ac;
-}
-
 #team img {
-    width: 100%;
+    width: 752px;
 }
 
-#team hr {
-    padding: 0;
-}
-
-#team header h4 { /* being more specific to target different h4s*/
-    font-size: 3rem;
-    font-weight: 800;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-#team div h4 { /* being more specific to target different h4s*/
-    font-size: 2rem;
-    font-weight: 800;
-    padding-left: 1rem;
-    line-height: 4rem;
-}
-#team h5 {
-    font-size: 1rem;
-    font-weight: 800;
-    padding-left: 1rem;
-}
-#team p {
-    padding-left: 1rem;
-    line-height: 1.5rem;
-    padding-bottom: 1rem;
-}
 
 #team div hr {
     border: solid 1px;
@@ -403,6 +369,13 @@ h4 {
     margin-left: 1rem;
     margin-right: 1rem;
 }
+
+#team #white {
+    border: solid 1px;
+    border-color: white;
+
+}
+
 
 #contact form {
     background-color: white;
