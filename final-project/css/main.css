@@ -125,6 +125,7 @@ nav ul li:nth-child(5){
     text-align: left;
     display: flex;
     justify-content: center;
+    height: 2.3rem;
     
 }
 .mg {
@@ -132,6 +133,8 @@ nav ul li:nth-child(5){
     color: #c78c06;
     background-color: #222;
     border-color: #c78c06;
+    border: solid;
+    text-align: center;
 }
 
 
@@ -160,9 +163,28 @@ header h2 {
     padding-top: 8rem;
 }
 
-button {
-    width: 35%;
+.connect {
+    position: relative;
+    width: 33%;
+    padding-top: 4rem;
+    background-color: #c78c06;
+    font-weight: 500;
+    font-size: 1rem;
 }
+.connect::before {
+    content: "Connect with us";
+    position: absolute;
+    top: 49%;
+    left: 40%;
+    transform: translate(-49%, -40%);
+}
+.connect i {
+    text-align: right;
+    padding-right: 1rem;
+    font-size: 2rem;
+    transform: translate(-20%, -90%);
+}
+
 
 #about {
     background-color: #ffe6ac;
