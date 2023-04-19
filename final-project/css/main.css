@@ -236,11 +236,45 @@ h4 {
 
 
 .service-button {
-    padding: 1rem;
+    padding: 2rem;
     background-color: #c78c06;
     color: white;
+    font-size: 1rem;
 }
 
+.vision{
+    background-image: url(../images/vision.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 260px;
+    margin-right: -1rem;
+}
+
+.vision h4 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: left;
+}
+
+.vision p {
+    color: white;
+    line-height: 1.5rem;
+    padding-bottom: .5rem;
+}
+
+
+.vision .service-button {
+    padding: 1.5rem;
+    background-color: #222;
+    border: solid 1px;
+    border-color: #c78c06;
+    
+    
+}
 
 
 .white, hr {
@@ -360,30 +394,6 @@ h4 {
     margin-left: .5rem;
 }
 
-.vision{
-    background-image: url(../images/vision.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 244px;
-    margin-right: -1rem;
-}
-
-.vision h4 {
-    font-size: 2.5rem;
-    font-weight: 800;
-    color: white;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    text-align: left;
-}
-
-.vision p {
-    color: white;
-    line-height: 1.5rem;
-
-    padding-bottom: 1rem;
-}
 
 
 .teamcolor {
