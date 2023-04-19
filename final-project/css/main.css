@@ -57,10 +57,15 @@ body {
 .wrapper {
     margin-left: .5rem;
     max-width: 1200px;
+    
 }
 
 nav ul li a, .a1, .s1, .t1, .c1{
     text-decoration: none;
+}
+
+nav {
+    padding-right: 1rem;
 }
 
 nav ul li a, .home {
@@ -73,7 +78,7 @@ nav ul li a, .home {
 nav{
     text-align: center;
     background-color: #c78c06;
-    margin-right: -1rem;
+    
 }
 
 .logo {
@@ -116,7 +121,7 @@ nav ul li:nth-child(5){
 
 
 #search{
-    width: 760px;
+   width: 710px;
     text-align: left;
     display: flex;
     justify-content: center;
@@ -179,11 +184,13 @@ header h2 {
 #about {
     background-color: #ffe6ac;
     padding-bottom: 1rem;
+    padding-right: 1rem;
     margin-right: -1rem;
 }
+    
 
 #about img {
-    width: 752;
+    width: 752px;
     margin: 1rem;
     justify-content: center;
 }
@@ -371,7 +378,6 @@ h4 {
     border: solid 1px;
     border-color: #c78c06;
     margin-left: 1rem;
-    margin-right: 1rem;
 }
 
 #team #white {
@@ -389,7 +395,7 @@ h4 {
 
 #fullname, #email, #comments {
     display: block;
-    width: 760px;
+    width: 98%;
 }
 #contact h4 {
     padding-top: 3rem;
