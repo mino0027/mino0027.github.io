@@ -236,8 +236,8 @@ h4 {
     text-decoration: none;
 }
 
-#print {
-    padding: 4rem;
+#service h3 {
+    margin-left: 1%;
 }
 
 .digplans {
@@ -246,6 +246,7 @@ h4 {
     padding-top: 4rem;
     background-color: #222;
     font-weight: 500;
+    margin-left: -1.5rem;
     font-size: 1.2rem;
     border: none;
 }
@@ -262,7 +263,7 @@ h4 {
     color: white;
     padding-right: 1rem;
     font-size: 2rem;
-    transform: translate(-11%, -90%);
+    transform: translate(-5%, -90%);
 } /* repeat of earlier button code with some minor changes */
 .markplans {
     position: relative;
@@ -270,6 +271,7 @@ h4 {
     padding-top: 4rem;
     background-color: #222;
     font-weight: 450;
+    margin-left: -1.5rem;
     font-size: 1.2rem;
     border: none;
 }
@@ -278,13 +280,13 @@ h4 {
     color: white;
     position: absolute;
     top: 43%;
-    left: 10%;
+    left: 5%;
 }
 .markplans i {
     text-align: right;
     color: white;
     font-size: 2rem;
-    transform: translate(-8%, -80%);
+    transform: translate(-4%, -80%);
 } /* repeat of earlier button code with some minor changes */
 .vidplans {
     position: relative;
@@ -292,6 +294,7 @@ h4 {
     padding-top: 4rem;
     background-color: #222;
     font-weight: 450;
+    margin-left: -1.5rem;
     font-size: 1.2rem;
     border: none;
 }
@@ -306,7 +309,7 @@ h4 {
     text-align: right;
     color: white;
     font-size: 2rem;
-    transform: translate(-20%, -80%);
+    transform: translate(-10%, -80%);
 } /* repeat of earlier button code with some minor changes */
 .webplans {
     position: relative;
@@ -314,6 +317,7 @@ h4 {
     padding-top: 4rem;
     background-color: #222;
     font-weight: 450;
+    margin-left: -1.5rem;
     font-size: 1.2rem;
     border: none;
 }
@@ -336,6 +340,7 @@ h4 {
     padding-top: 4rem;
     background-color: #222;
     font-weight: 450;
+    margin-left: -1.5rem;
     font-size: 1.2rem;
     border: none;
 }
@@ -359,18 +364,135 @@ h4 {
     border: none;
 }
 
-.marketting, .digital, .web, .video, .print, .serviceimg {
+.marketting, .digital, .web, .video, .print {
     background-color: #ffe6ac;
-    
-    padding-bottom: 7.5px;
     margin-left: 1%;
-    margin-right: 1%;
-    
-    
+    margin-right: 1%;    
 }
 
-.vision {
-    margin: 0;
-    width: 100%;
+.print h4 {
+    margin-left: -1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-weight: 800;
+    font-size: 3rem;
+ /* fixing services h4s */
+}
+.web h4 {
+    margin-left: -1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-weight: 800;
+    font-size: 3rem;
+ /* fixing services h4s */
+}
+.video h4 {
+    margin-left: -1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-weight: 800;
+    font-size: 3rem;
+ /* fixing services h4s */
+}
+.marketting h4 {
+    margin-left: -1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-weight: 800;
+    font-size: 3rem;
+ /* fixing services h4s */
+}
+.digital h4 {
+    margin-left: -1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-weight: 800;
+    font-size: 3rem;
+ /* fixing services h4s */
+}
+
+.print p {
+    margin-left: -1.5rem;
+    line-height: 1.5rem;
+    padding-bottom: .5rem;
+ /* fixing services texts */
+}
+.web p {
+    margin-left: -1.5rem;
+    line-height: 1.5rem;
+    padding-bottom: .5rem;
+ /* fixing services texts */
+}
+.video p {
+    margin-left: -1.5rem;
+    line-height: 1.5rem;
+    padding-bottom: .5rem;
+ /* fixing services texts */
+}
+.digital p {
+    margin-left: -1.5rem;
+    line-height: 1.5rem;
+    padding-bottom: .5rem;
+ /* fixing services texts */
+}
+.marketting p {
+    margin-left: -1.5rem;
+    line-height: 1.5rem;
+    padding-bottom: .5rem;
+ /* fixing services texts */
+}
+
+
+
+
+
+.vision{
+    background-image: url(/images/vision.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 102%;
     height: 100%;
+}
+.visionbut {
+    position: relative;
+    width: 27%;
+    padding-top: 4rem;
+    background-color: #060331;
+    font-weight: 450;
+    font-size: 1.2rem;
+    margin-left: -1rem;
+    margin-bottom: 1rem;
+    border: solid;
+    border-color: #c78c06;
+}
+.visionbut::before {
+    content: "Learn More";
+    color: white;
+    position: absolute;
+    top: 43%;
+    left: 15%;
+}
+.visionbut i {
+    text-align: right;
+    color: white;
+    font-size: 2rem;
+    transform: translate(-20%, -80%);
+} /* repeat of earlier button code with some minor changes */
+
+.vision h4 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: left;
+    margin-left: -1rem;
+}
+
+.vision p {
+    color: white;
+    line-height: 1.5rem;
+    margin-left: -1rem;
+
 }
