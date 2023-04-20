@@ -53,10 +53,10 @@ table {
 
 body {
     font-family: 'Open Sans', sans-serif;
+    max-width: 760px;
 }
 .wrapper {
     margin-left: .7rem;
-    max-width: 1200px;
 }
 
 nav ul li a, .a1, .s1, .t1, .c1{
@@ -65,7 +65,7 @@ nav ul li a, .a1, .s1, .t1, .c1{
 
 nav {
     padding-right: 1.5rem;
-    
+    max-width: 100%;
 }
 
 nav ul li a, .home {
@@ -156,6 +156,7 @@ nav {
 .welcome{
     background-image: url(../images/main-banner.jpg);
     background-size: cover;
+    height: 700px;
     background-repeat: no-repeat;
     background-position: center;
     margin-right: -1rem;
@@ -402,8 +403,8 @@ h4 {
 #team div hr {
     border: solid 1px;
     border-color: #c78c06;
-    margin-left: .5rem;
-    margin-right: .5rem;
+    margin-left: .1rem;
+    margin-right: .4rem;
 }
 
 #team #white {
