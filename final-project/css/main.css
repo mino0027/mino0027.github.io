@@ -122,12 +122,11 @@ nav ul li:nth-child(5){
 
 
 #search{
-   width: 710px;
+    width: 710px;
     text-align: left;
     display: flex;
     justify-content: center;
     height: 2.3rem;
-    
 }
 .mg {
     width: min-content;
