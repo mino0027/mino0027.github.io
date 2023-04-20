@@ -233,6 +233,7 @@ h4 {
     font-size: 2rem;
 }
 
+
 #service .wrapper {
     background-color: #ffe6ac;
 }
@@ -715,7 +716,6 @@ footer p a {
     #service .grid {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
-        grid-gap: 10px;
         grid-template-areas: 
             "d1 d1 d1 m1 m1 m1"
             "v1 v1 w1 w1 p1 p1"
@@ -778,6 +778,12 @@ footer p a {
             "john jc"
             "bc bob"
         ;
+    }
+    .print h4 {
+        padding-top:1.5rem;
+    }
+    .print p {
+        padding-bottom: 1.9rem;
     }
     .bob {grid-area: bob;}
     .john {grid-area: john;}
