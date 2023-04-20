@@ -203,6 +203,8 @@ header h2 {
     padding-bottom: 1rem;
 }
 
+/* box cleans up the welcome and adds the shadow while wrapper keeps it positioned correctly */
+
 #about {
     background-color: #ffe6ac;
     padding-bottom: 1rem;
@@ -274,6 +276,7 @@ h4 {
 
 .vision{
     background-image: url(../images/vision.jpg);
+    /* banner uses this code too, it allows the vision to surpass the width of the max/ wrappers */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -317,10 +320,9 @@ h4 {
     padding-bottom: .7rem;
     border-bottom: 1rem;
     border: solid 5px white;
-    
+    /* targeting all to add a white border */
 }
 
-.marketi
 
 .print h4 {
 
@@ -415,7 +417,7 @@ h4 {
 
 .john, .bob {
     display:block;
-}
+} 
 
 .teamcolor {
     background-color: #ffe6ac;
@@ -580,7 +582,7 @@ footer p a {
         padding: 0;
         margin: 0;
         text-align: center;
-    }
+    } /* sets breakpoint to go from mobile to desktop*/
 
     .welcome {
         background-image: url(../images/main-banner.jpg);
@@ -599,7 +601,7 @@ footer p a {
         padding-left: .5rem;
     }
     .connect {
-        display: block;
+        display: block; /*position button */
         margin-left: .5rem;
     }
 
@@ -614,7 +616,7 @@ footer p a {
         justify-content: space-between;
         text-align: center;
         align-items: center;
-    }
+    } /* orders nav into horizontal line and spaces */
     nav ul {
         display: flex;
         align-items: center;
@@ -629,7 +631,7 @@ footer p a {
         padding: 0;
     }
 
-    nav ul li:nth-child(1){
+    nav ul li:nth-child(1){ /*nth child 1 to target jusst home*/
         background-color: #c78c06;
         color: #222;
         padding-bottom: 0;
@@ -642,7 +644,7 @@ footer p a {
         padding-right: 2rem;
     }
 
-    nav ul li:nth-child(2){
+    nav ul li:nth-child(2){ /* in acsending order to target other navs childern */
         padding: 2rem;
         background-color: #222;
         color: #222;
@@ -698,7 +700,7 @@ footer p a {
     #about img{ 
         width: 500px;
         height: 300px;
-        float: left;
+        float: left; /* float to put text to the right of img */
         margin-left: 4rem;
         padding-right: .5rem
     }
@@ -717,17 +719,17 @@ footer p a {
 
     #service .grid {
         display: grid;
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: repeat(6, 1fr); /* sets the dimension*/
         grid-template-areas: 
             "d1 d1 d1 m1 m1 m1"
             "v1 v1 w1 w1 p1 p1"
-        ;
+        ; /* grid temp areas to define where the areas go */
     }
     .digital{
-        grid-column: 1/4;
+        grid-column: 1/4; /*spans to the liness 1,2,3,4 */
     }
     .marketting{
-        grid-column: 4/7;
+        grid-column: 4/7; /*spans to lines 4,5,6,7*/
     }
    .video{
         grid-column: 1/3;
