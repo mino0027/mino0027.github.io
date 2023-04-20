@@ -677,10 +677,31 @@ footer p a {
     }
 
     #about {
-        max-width: 1184px;
-        display: grid;
+        padding-right: 0;
+        padding-bottom: 4rem;
+    }
+    #about img{ 
+        width: 500px;
+        height: 300px;
+        float: left;
+        margin-left: 4rem;
+        padding-right: .5rem
+    }
+    #about p {
+        text-align: left;
+        line-height: 1.7rem;
+    }
+    #about h3 {
+        text-align: left;
+        line-height: 5rem;
     }
 
+    .service {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 0.5rem;
+    }
 
 
 
