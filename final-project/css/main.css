@@ -687,6 +687,8 @@ footer p a {
     .mg {
         margin-top: 2.7rem;
         margin-right: 3rem;
+        padding-left: .5rem;
+        padding-right: .5rem;
     }
 
     #about {
