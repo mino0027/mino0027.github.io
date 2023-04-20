@@ -312,12 +312,14 @@ h4 {
 }
 
 
-.digital, .print, .web, .video, .marketting{
+.digital, .print, .web, .video, .marketting {
     padding-bottom: .7rem;
     border-bottom: 1rem;
     border: solid 5px white;
     
 }
+
+.marketi
 
 .print h4 {
 
@@ -808,8 +810,10 @@ footer p a {
     .grid3 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
         grid-template-areas: 
             "contact location"
+            "hours hours"
         ;
 
     }
@@ -826,7 +830,34 @@ footer p a {
     }
     #hours {
         width: 100%;
+        padding-bottom: 1rem;
     }
-
+    #hours h4 {
+        text-align: left;
+    }
+    #contact h5 {
+        text-align: left;
+        font-weight: 800;
+    }
+    #contact h4 {
+        text-align: left;
+        font-weight: 800;
+        font-size: 3rem;
+    }
+    #contact div {
+        text-align: left;
+    }
+    #location h4 {
+        text-align: left;
+        padding-top: 5.5rem;
+    }
+    #contact button {
+        padding: .5rem;
+        font-size: 1rem;
+    }
+    footer p{
+        text-align: left;
+        padding-left: 4.5rem;
+    }
 }
 
