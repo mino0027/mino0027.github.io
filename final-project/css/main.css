@@ -753,7 +753,7 @@ footer p a {
 
     }
     #service .wrapper p{
-        text-align: justify;
+        text-align: justify; /* fits p's perfectly in space */
     }
     #service .wrapper button{
         width: 85%;
@@ -792,7 +792,7 @@ footer p a {
     .bob {grid-area: bob;}
     .john {grid-area: john;}
     .jc {grid-area: jc;}
-    .bc {grid-area: bc;}
+    .bc {grid-area: bc;} /* grid area sets names for grid template */
 
     .john {
         grid-column: 1/2;
