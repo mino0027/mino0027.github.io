@@ -50,10 +50,13 @@ table {
 /* all css reset above, the following below will be all my code */
 /* colours #c78c06, #ffe6ac, #222  */
 
+* {
+    max-width: 760;
+}
 
 body {
     font-family: 'Open Sans', sans-serif;
-    max-width: 760px;
+    
 }
 .wrapper {
     margin-left: .7rem;
@@ -164,7 +167,6 @@ nav {
 
 header h2 {
     font-weight: 800;
-    font-size: 45pt;
     color: white;
     
 }
@@ -177,11 +179,30 @@ header h2 {
     border: none;
 }
 
+.box {
+    padding-bottom: 1rem;
+    margin-left: -1rem;
+    padding-left: 1rem;
+}
 
+.box{
+    background-color: #2222227f;
+    padding-top: 7rem;
+}
+.welcome .wrapper {
+    padding-top: 7rem;
+}
+.box h2 {
+    line-height: 5rem;
+    padding-bottom: 2.5rem;
+    font-weight: bolder;
+    font-size: 5rem;
+}
 
-.box, h2 p button{
-    background-color: #2222226f;
-    top: 20rem;
+.box p {
+    color: white;
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
 }
 
 #about {
@@ -528,6 +549,7 @@ iframe {
     width: 98%;
     height: 450px;
     margin-left: 1rem;
+    padding-bottom: 1rem;
 }
 
 footer {
@@ -543,8 +565,124 @@ footer p a {
     color: #c78c06;
 }
 
-@media screen and (min-width: 760px) {
-    .services {
+/* all of mobile above */
+/* desktop beginning */
+
+@media screen and (min-width: 761px) {
+    * {
+        max-width: 1200px;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .box h2 {
+        text-align: left;
+        font-size: 5.5rem;
+        padding-right: 2rem;
+        padding-left: .5rem;
+    }
+    .box p {
+        text-align: left;
+        padding-left: .5rem;
+    }
+    .connect {
+        display: block;
+        margin-left: .5rem;
+    }
+
+
+    .box {
+        padding-left: 0;
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+    }
+    nav ul {
+        display: flex;
+        align-items: center;
+        background-color: #222;
+        justify-content: space-evenly;
+        max-width: 1100;
+        padding-top: 2rem;
+    }
+
+    .home {
+        display: flex;
+        padding: 0;
+    }
+
+    nav ul li:nth-child(1){
+        background-color: #c78c06;
+        color: #222;
+        padding-bottom: 0;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 1.5rem;
+        padding-top: 1.5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    nav ul li:nth-child(2){
+        padding: 2rem;
+        background-color: #222;
+        color: #222;
+    }
+    nav ul li:nth-child(3){
+        padding: 2rem;
+        background-color: #222;
+        color: #222;
+    }
+    nav ul li:nth-child(4){
+        padding: 2rem;
+        background-color: #222;
+        color: #222;
+    }
+    nav ul li:nth-child(5){
+        padding: 2rem;
+        background-color: #222;
+        color: #222;
+    }
+    nav {
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: .5rem;
+    }
+    .mnav{
+        background-color: #222;
+
+    }    
+    
+    .logo {
+        padding: 0;
+        margin-left: 3rem;
+        padding-right: 2rem;
+        background-color: #222;
+        padding-bottom: 2rem;
+    }
+    
+    #search{
+        width: 250px;
+        margin-top: 2.7rem;
+    }
+    .mg {
+        margin-top: 2.7rem;
+    }
+
+    #about {
+        max-width: 1184px;
         display: grid;
     }
+
+
+
+
 }
+
