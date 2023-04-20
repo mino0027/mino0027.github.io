@@ -130,7 +130,7 @@ nav ul li:nth-child(5){
     height: 2.3rem;
 }
 .mg {
-    width: min-content;
+    width: min-content; /* takes up little space*/
     color: #c78c06;
     background-color: #222;
     border-color: #c78c06;
@@ -142,7 +142,7 @@ nav ul li:nth-child(5){
 
 form {
     background-color: #222;
-    display: flex;
+    display: flex; /* fixes position for mg button */
     padding-bottom: 1rem;
 }
 nav {
@@ -161,7 +161,7 @@ nav {
     background-position: center;
     margin-right: -1rem;
 }
-
+ 
 
 header h2 {
     font-weight: 800;
