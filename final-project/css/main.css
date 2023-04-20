@@ -574,6 +574,12 @@ footer p a {
         text-align: center;
     }
 
+    .welcome {
+        background-image: url(../images/main-banner.jpg);
+        background-size: cover;
+        width: 1200px;
+    }
+
     .box h2 {
         text-align: left;
         font-size: 5.5rem;
@@ -649,8 +655,9 @@ footer p a {
         color: #222;
     }
     nav {
-        padding-right: 1rem;
         padding-left: 0;
+        padding-right: 0;
+        width: 1200px;
     }
     .mnav{
         background-color: #222;
@@ -671,6 +678,7 @@ footer p a {
     }
     .mg {
         margin-top: 2.7rem;
+        margin-right: 3rem;
     }
 
     #about {
@@ -693,6 +701,9 @@ footer p a {
         line-height: 5rem;
     }
     
+    #service {
+        margin-right: 1rem;
+    }
 
     #service .grid {
         display: grid;
@@ -719,21 +730,11 @@ footer p a {
         grid-column: 5/7;
     }
 
-    .digital{
-        {grid-area: d1;}
-    } 
-    .marketting{
-        {grid-area: m1;}
-    } 
-    .video{
-        {grid-area: v1;}
-    } 
-    .web{
-        {grid-area: w1;}
-    } 
-    .print{
-        {grid-area: p1;}
-    } 
+    .digital{grid-area: d1;}
+    .marketting{grid-area: m1;}
+    .video{grid-area: v1;}
+    .web{grid-area: w1;}
+    .print{grid-area: p1;} 
 
     #service .wrapper h4{
         text-align: left;
@@ -746,7 +747,44 @@ footer p a {
     #service .wrapper button{
         width: 85%;
     }
+    .vision p {
+        text-align: left;
+        line-height: 1.8rem;
+    }
+    .vision button {
+        display: block;
+        margin-top: 1rem;
+    }
 
+    #team {
+        margin-right: 1rem;
+    }
+    #team h4 {
+        text-align: left;
+    }
+
+    #team .grid2{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+            "john jc"
+            "bc bob"
+        ;
+    }
+    .bob {grid-area: bob;}
+    .john {grid-area: john;}
+    .jc {grid-area: jc;}
+    .bc {grid-area: bc;}
+
+    .john {
+        grid-column: 1/2;
+    }
+    
+    .bob {
+        grid-column: 2/3;
+    }
+    .
 
 
 
