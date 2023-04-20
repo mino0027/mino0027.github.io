@@ -312,8 +312,10 @@ h4 {
 }
 
 
-.digital, .print, .web, .video, .marketting  .wrapper {
+.digital, .print, .web, .video, .marketting{
     padding-bottom: .7rem;
+    border-bottom: 1rem;
+    border: solid 5px white;
     
 }
 
@@ -451,6 +453,9 @@ h4 {
 #team h5 {
     font-weight: 800;
     font-size: 1rem;
+}
+#team .borderbottom {
+    border-bottom: solid 5px white;
 }
 
 
@@ -784,10 +789,44 @@ footer p a {
     .bob {
         grid-column: 2/3;
     }
-    .
+    
+    #team h4{
+        text-align: left;
+    }
+    #team h5 {
+        text-align: left;
+    }
+    #team p {
+        padding-top: .5rem;
+        text-align: left;
+        line-height: 1.7rem;
+    }
+    #team .borderbottom {
+        border-bottom: none;
+    }
+    
+    .grid3 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+            "contact location"
+        ;
 
+    }
 
+    #contact {grid-area: contact;}
+    #hours {grid-area: hours;}
+    #location {grid-area: location;}
 
+    #contact {
+        grid-column: 1/2;
+    }
+    #location {
+        grid-column: 2/3;
+    }
+    #hours {
+        width: 100%;
+    }
 
 }
 
