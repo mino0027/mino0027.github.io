@@ -194,8 +194,7 @@ header h2 {
 
 #about img {
     padding-top: 1rem;
-    padding-left: 1rem;
-    width: 740px;
+    max-width: 100%;
     justify-content: center;
 }
  
@@ -288,23 +287,9 @@ h4 {
     
 }
 
-
-
-
-.digital img {
-    width: 749px;
-}
-.marketting img {
-    width: 749px;
-}
-.web img {
-    width: 749px;
-}
-.video img {
-    width: 749px;
-}
-.print img {
-    width: 749px;
+.serviceimg, .john, .bob {
+    width: 100%;
+    height: auto;
 }
 
 
@@ -404,14 +389,14 @@ h4 {
 }
 
 
+.john, .bob {
+    display:block;
+}
 
 .teamcolor {
     background-color: #ffe6ac;
 }
 
-#team img {
-    width: 748px;
-}
 
 
 #team div hr {
@@ -461,7 +446,8 @@ h4 {
     width: 98%;
 }
 #contact h4 {
-    padding-top: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     font-size: 2rem;
 }
 #contact h4 h5 {
@@ -499,7 +485,8 @@ h4 {
 
 table {
     border-collapse: collapse;
-    width: 750px;
+    max-width: 100%;
+    width: 98%;
     margin: 0 auto;
     margin-left: 1rem;
     border: solid 1px;
@@ -511,7 +498,6 @@ table {
     text-align: left;
     border: solid 1px;
     border-color: black;
-    width: 380px;
   }
   
   th {
@@ -520,7 +506,6 @@ table {
     padding: 1rem;
     border: solid 1px;
     border-color: black;
-    width: 380px;
   }
     
 .hours h4 {
@@ -540,8 +525,8 @@ table {
 
 }
 iframe {
-    width: 750px;
-    height: 500px;
+    width: 98%;
+    height: 450px;
     margin-left: 1rem;
 }
 
@@ -556,4 +541,10 @@ footer {
 
 footer p a {
     color: #c78c06;
+}
+
+@media screen and (min-width: 760px) {
+    .services {
+        display: grid;
+    }
 }
