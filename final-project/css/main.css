@@ -50,9 +50,7 @@ table {
 /* all css reset above, the following below will be all my code */
 /* colours #c78c06, #ffe6ac, #222  */
 
-* {
-    max-width: 760;
-}
+
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -608,7 +606,7 @@ footer p a {
         align-items: center;
         background-color: #222;
         justify-content: space-evenly;
-        max-width: 1100;
+        max-width: 1100px;
         padding-top: 2rem;
     }
 
@@ -695,15 +693,19 @@ footer p a {
         text-align: left;
         line-height: 5rem;
     }
-
+/*
     .service {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
         grid-template-rows: repeat(2, 1fr);
         grid-gap: 0.5rem;
+        grid-template-areas: 
+        
+        ;
     }
-
-
+    .digital {grid-area: d1;}
+    .marketting {grid-area: m1;}
+*/
 
 }
 
